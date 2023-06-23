@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhà gỗ</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="home">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top__inner">
+                        <ul>
+                            <li>
+                                <span>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    22 Đường số 10, KP4, Bình Hưng Hòa B, Quận Bình Tân, TPHCM
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fa fa fa-envelope" aria-hidden="true"></i> 
+                                    Email: info@nhagovina.com
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="header-main-wrap">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <img src="./assets/images/logo-anthinh.png" alt="">
+                            </a>
+                        </div>
+                        <nav class="menu">
+                            <ul>
+                                <li>
+                                    <a href="./index.html">Trang chủ</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="./products.html">Sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="./projects.html">Dự án</a>
+                                </li>
+                                <li>
+                                    <a href="./news.html">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="./contact.html">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-search">
+                            <form action="">
+                                <input type="text" placeholder="Nhập từ khóa tìm kiếm..." class="form-control" name="textsearch">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="mobile-menu-wrap">
+                    <a href="javascript:;" class="menu-bar">
+                        <span class="fa fa-bars" title=""></span>
+                    </a>
+                    <form action="">
+                        <input type="text" class="form-control" name="textsearch" placeholder="Nhập từ khóa tìm kiếm...">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="mobile-menu-nav">
+                        <h3>
+                            Danh mục
+                        </h3>
+                        <ul>
+                            <li>
+                                <a href="./index.html">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="./about.html">Giới thiệu</a>
+                            </li>
+                            <li>
+                                <a href="./products.html">Sản phẩm</a>
+                            </li>
+                            <li>
+                                <a href="./projects.html">Dự án</a>
+                            </li>
+                            <li>
+                                <a href="./news.html">Tin tức</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner banner-video">
+                <video autoplay muted loop playsinline class="myVideo">
+                    <source src="./assets/images/demo-home.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                            <div class="about-desc">
+                                <h3 class="about-desc-title">VỀ CHÚNG TÔI - CÔNG TY SẢN XUẤT NHÀ GỖ</h3>
+                                <div class="about-desc-text">
+                                    <p>
+                                        <span style="font-size:14px">Nhà Gỗ Việt Nam là một trong những thương hiệu uy tín nhiều năm chuyên sản xuất và lắp đặt nhà gỗ tại TPHCM. Với đội ngũ nhân viên&nbsp; công ty giàu kinh nghiệm, am hiểu sâu sắc trong lĩnh vực thiết kế thi công nhà gỗ, Nhà Gỗ Việt Nam tự tin mang tới những sản phẩm và dịch vụ tốt nhất cho khách hàng. Mọi thông tin chi tiết, quý khách vui lòng liên hệ Hotline:&nbsp;<span style="font-size:16px"><span style="color:var(--second-color)"><strong>0905 515 556</strong></span></span>&nbsp;để
+                                        được hỗ trợ 24/7. Xin cảm ơn!</span>
+                                    </p>
+                                </div>
+                                <div class="about-desc-btn">
+                                    <a href="./about.html">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-image">
+                                <div class="about-image-slide">
+                                    <div class="item">
+                                        <img src="./assets/images/ab1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/ab2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/ab3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/ab4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product">
+                <div class="container">
+                    <div class="section-title">
+                        <h3 class="subtitle">Loại hình sản phẩm</h3>
+                        <div class="img-tt">
+                            <img src="./assets/images/hr-b2.png">
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-slide">
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./product-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./product-details.html">
+                                                Nhà chòi gỗ		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./product-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./product-details.html">
+                                                Nhà gỗ từ đường		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./product-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./product-details.html">
+                                                Nhà gỗ nhập khẩu		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./product-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./product-details.html">
+                                                Nhà gỗ vãn cảnh		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="commit">
+                <div class="container">
+                    <div class="section-title">
+                        <h3 class="subtitle">5 CAM KẾT BÁN HÀNG CỦA NHÀ GỖ VIỆT</h3>
+                        <div class="img-tt">
+                            <img src="./assets/images/hr-3.png">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-20">
+                            <div class="commit-item">
+                                <img src="./assets/images/ck-1.png" alt="">
+                                <div class="info">
+                                    <p>Mức giá tốt nhất trên thị trường</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-20">
+                            <div class="commit-item">
+                                <img src="./assets/images/ck-2.png" alt="">
+                                <div class="info">
+                                    <p>100% chất liệu gỗ như đã cam kết</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-20">
+                            <div class="commit-item">
+                                <img src="./assets/images/ck-3.png" alt="">
+                                <div class="info">
+                                    <p>Đo đạc thiết kế hoàn toàn miễn phí</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-20">
+                            <div class="commit-item">
+                                <img src="./assets/images/ck-4.png" alt="">
+                                <div class="info">
+                                    <p>Hỗ trợ giao hàng toàn quốc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-20">
+                            <div class="commit-item">
+                                <img src="./assets/images/ck-5.png" alt="">
+                                <div class="info">
+                                    <p>Bảo hành lâu dài, hỗ trợ chu đáo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project">
+                <div class="container">
+                    <div class="section-title">
+                        <h3 class="subtitle">Dự án đã triển khai</h3>
+                        <div class="img-tt">
+                            <img src="./assets/images/hr-b2.png">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-slide">
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./project-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./project-details.html">
+                                                Giải pháp nào cho nhà đầu tư khu vui chơi trong thị trường cạnh tranh hiện nay		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./project-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./project-details.html">
+                                                Giải pháp nào cho nhà đầu tư khu vui chơi trong thị trường cạnh tranh hiện nay		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./project-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./project-details.html">
+                                                Giải pháp nào cho nhà đầu tư khu vui chơi trong thị trường cạnh tranh hiện nay		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-inner">
+                                    <div class="item-image">
+                                        <a href="./project-details.html">
+                                            <img src="./assets/images/thumb1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="item-desc">
+                                        <h3>
+                                            <a href="./project-details.html">
+                                                Giải pháp nào cho nhà đầu tư khu vui chơi trong thị trường cạnh tranh hiện nay		
+                                            </a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="news">
+                <div class="container">
+                    <div class="section-title">
+                        <h3>Tin tức nổi bật</h3>
+                        <div class="img-tt">
+                            <img src="./assets/images/hr-b2.png">
+                        </div>
+                    </div>
+                    <div class="news-list">
+                        <div class="news-item">
+                            <div class="news-item__image">
+                                <a href="./news-details.html">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-item__desc">
+                                <h3 class="name">
+                                    <a href="./news-details.html">10+ mẫu nhà gỗ hiện đại đẹp được ưa chuộng nhất hiện nay</a>
+                                </h3>
+                                <div class="quote">
+                                    Top 10+ mẫu nhà gỗ hiện đại đẹp, thiết kế hiện đại, đơn giản, nhỏ gọn, cao cấp đang được ưa chuộng nhất hiện nay bao gồm: nhà gỗ cấp 4, nhà gỗ sân vườn, 2 tầng, 3 gian, 5 gian.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-item__image">
+                                <a href="./news-details.html">
+                                    <img src="./assets/images/news2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-item__desc">
+                                <h3 class="name">
+                                    <a href="./news-details.html">Nhà gỗ đẹp</a>
+                                </h3>
+                                <div class="quote">
+                                    Một ngôi nhà gỗ đẹp không cần phải có diện tích lớn hay kinh phí đầu tư cao mà là ngôi nhà có thiết kế độc...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-item__image">
+                                <a href="./news-details.html">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="news-item__desc">
+                                <h3 class="name">
+                                    <a href="./news-details.html">10+ mẫu nhà gỗ hiện đại đẹp được ưa chuộng nhất hiện nay</a>
+                                </h3>
+                                <div class="quote">
+                                    Top 10+ mẫu nhà gỗ hiện đại đẹp, thiết kế hiện đại, đơn giản, nhỏ gọn, cao cấp đang được ưa chuộng nhất hiện nay bao gồm: nhà gỗ cấp 4, nhà gỗ sân vườn, 2 tầng, 3 gian, 5 gian.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="video">
+                <div class="container">
+                    <div class="section-title">
+                        <h3>Video</h3>
+                        <div class="img-tt">
+                            <img src="./assets/images/hr-b2.png">
+                        </div>
+                    </div>
+                    <div class="video-list">
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <div class="video-item__image">
+                                <a href="https://www.youtube.com/watch?v=7XXw1X5CbAo" data-fancybox="">
+                                    <img src="./assets/images/news1.jpg" alt="">
+                                    <i class="fas fa-play-circle"></i>
+                                </a>
+                            </div>
+                            <div class="video-item__desc">
+                                <h3>
+                                    Nhà gỗ Việt Nam
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter">
+                <div class="container">
+                    <div class="newsletter-wrap">
+                        <div class="newsletter-text">
+                            <p>
+                                Hãy để đội ngũ nhân viên của Nhà Gỗ Việt gọi điện thoại tư vấn cho Quý khách một cách tốt nhất!
+                            </p>
+                        </div>
+                        <div class="newsletter-btn">
+                            <a href="./contact.html">
+                                <i class="fa fa-paper-plane" aria-hidden="true"></i> Liên hệ tư vấn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="footer-info">
+                                <h3 class="title-font">CÔNG TY TNHH SX XD NHÀ GỖ VIỆT NAM</h3>
+                                <div class="footer-content">
+                                    <p>
+                                        <span>MST:</span> 0314463697 - Sở KHĐT TPHCM - Ngày: 18/03/2020
+                                    </p>
+                                    <p>
+                                        <span>Địa chỉ:</span> 22 Đường số 10, KP4, P.Bình Hưng Hòa B, Q.Bình Tân, TPHCM
+                                    </p>
+                                    <p>
+                                        <span>Holine</span>
+                                        <a href="tel:+0905515556">0905 515 556</a>(Mr.Hiếu) ,
+                                        <a href="tel:+0929688799">0929 688 799</a>(Ms.Hà)
+                                    </p>
+                                    <p>
+                                        <span>Email:</span>
+                                        <a href="mailto:info@nhagovina.com">info@nhagovina.com</a> ,
+                                        <a href="mailto:daiviet1080@gmail.com">daiviet1080@gmail.com</a>
+                                    </p>
+                                    <p>
+                                        <span>Website:</span>
+                                        <a href="nhagovina.com">nhagovina.com</a>, <a href="nhagoxanh.com">nhagoxanh.com</a>
+                                    </p>
+                                    <p>
+                                        <span>Tham khảo:</span>
+                                        <a href="">Nhà gỗ</a>,
+                                        <a href="">Nhà gỗ lục giác</a>,
+                                        <a href="">Giá nhà gỗ</a>
+                                    </p>
+                                    <p>
+                                        <img src="./assets/images/nhagovina-bocongthuong.png" alt="" style="width: 200px;">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-column">
+                                <h3 class="title-font">Dịch vụ khách hàng</h3>
+                                <div class="footer-content">
+                                    <ul>
+                                        <li>
+                                            <a href="">Hướng dẫn thanh toán</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chính sách bảo hành</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chính sách bảo mật thông tin</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Chính sách vận chuyển</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Quy định sử dụng sản phẩm</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="footer-column">
+                                <h3 class="title-font">Liên hệ trên facebook</h3>
+                                <div class="footer-content">
+                                    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/Nhagovina-569431006845328" data-height="180" data-width="500" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=322&amp;height=180&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FNhagovina-569431006845328&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;width=500"><span style="vertical-align: bottom; width: 322px; height: 130px;"><iframe name="f228fe98e3e3dc8" width="500px" height="180px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dffe5c603b59c4%26domain%3Dnhagovina.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fnhagovina.com%252Ff2a7523a265052%26relation%3Dparent.parent&amp;container_width=322&amp;height=180&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FNhagovina-569431006845328&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;width=500" style="border: none; visibility: visible; width: 100%; height: 130px;" class=""></iframe></span></div>
+                                </div>
+                                <div class="footer-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.057076419877!2d106.59014379999999!3d10.806940599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b9b25242a1d%3A0x3b83686ef29ebc72!2zMjIgxJAuIFPhu5EgMTAsIELDrG5oIEjGsG5nIEhvw6AgQiwgQsOsbmggVMOibiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1665558149720!5m2!1svi!2s"
+                                        width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p>Copyright © 2018 www.nhagovina.com</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <a href="javascript:void(0);" id="backtotop"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+
+    <script src="./assets/js/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
